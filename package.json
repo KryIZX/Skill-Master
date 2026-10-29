@@ -1,0 +1,24 @@
+{
+  "name": "skill-master",
+  "version": "1.0.0",
+  "description": "A comprehensive, byte-for-byte verified GitHub preservation archive of all **180 skills** from a Google Antigravity IDE installation on Windows.",
+  "main": "dist/manage.js",
+  "type": "module",
+  "scripts": {
+    "start": "tsx manage.ts",
+    "manage": "tsx manage.ts",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/KryIZX/Skill-Master/issues"
+  },
+  "homepage": "https://github.com/KryIZX/Skill-Master#readme",
+  "devDependencies": {
+    "@inquirer/prompts": "^8.7.5",
+    "@types/node": "^26.6.6",
+    "chalk": "^5.6.2",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
